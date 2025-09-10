@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "id": "8352ef13c390b1f1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "22b38410f3ec3ea8",
+        "type": "inject",
+        "z": "8352ef13c390b1f1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "9a2f4bba158218ea"
+            ]
+        ]
+    },
+    {
+        "id": "a89ae03cee09936d",
+        "type": "mqtt in",
+        "z": "8352ef13c390b1f1",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a2f4bba158218ea",
+        "type": "mqtt out",
+        "z": "8352ef13c390b1f1",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "x": 290,
+        "y": 160,
+        "wires": []
+    }
+]
