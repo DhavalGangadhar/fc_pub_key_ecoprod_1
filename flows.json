@@ -37,24 +37,6 @@
         ]
     },
     {
-        "id": "a89ae03cee09936d",
-        "type": "mqtt in",
-        "z": "8352ef13c390b1f1",
-        "name": "",
-        "topic": "",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 330,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9a2f4bba158218ea",
         "type": "mqtt out",
         "z": "8352ef13c390b1f1",
@@ -67,8 +49,8 @@
         "userProps": "",
         "correl": "",
         "expiry": "",
-        "x": 410,
-        "y": 120,
+        "x": 430,
+        "y": 80,
         "wires": []
     }
 ]
